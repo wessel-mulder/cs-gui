@@ -1,0 +1,93 @@
+{
+    ### PARAMETERS for automatic checks 
+    'max_distance':     200,                    # max distance in meters 
+    'min_scooptime': '0 days 00:20:00',      # minimum scoop time (x days hh:mm:ss)
+    'max_scooptime': '0 days 00:40:00',      # maximum scoop time (x days hh:mm:ss)
+    'date_min': [1900,1,1],                  # lower boundary for checking realistic dates [yyyy,mm,dd]
+    'date_max': [2100,1,1],                 # upper boundary for checking realistic dates [yyyy,mm,dd]
+
+    ### COLUMN NAMES - ensure there are no empty spaces, copy exactly from the correct column name in the Kobo sheet or the script will not work
+    # village
+    'village_col': "Village",
+
+    # date selection
+    'date_col':  "Sélectionnez la date",
+
+    # longitude 
+    'longitude_col': '_Prendre le point GPS_longitude',
+    # latitude 
+    'latitude_col': '_Prendre le point GPS_latitude',
+
+    # start collection
+    'start_sampling': "Saisir l'heure de début de la collecte des escargots",
+    'end_sampling': "Saisir l'heure du fin de la collecte des escargots",
+
+
+    ## SNAIL QUESTIONS AND IMAGES
+    # any snails found
+    'any_snails_found': "Avez-vous trouvé des escargots?",
+    # answers 
+    'any_found_no': 'Non',
+    'any_found_yes': 'Oui',
+
+    # which type of snails
+    'which_snails_found': "Comment vont les escargots que vous avez trouvés ?",
+    # answers
+    'just_live': 'Seulement des escargots vivants',
+    'just_empty': 'Seulement des coquilles vides',
+
+    # empty biomphalaria question 
+    'empty_bio_q': "Combien des Biomphalaria vides (coquille plat et rond) avez-vous trouvé ? (exemple ci-dessous)",
+
+    # empty biomphalaria image
+    'empty_bio_img': "Placez tous les spécimens de Biomphalaria vides dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # empty bulinus question 
+    'empty_bul_q': "Combien des Bulinus vides (ouverture gauche) avez-vous trouvé ? (exemple ci-dessous)",
+
+    # empty bulinus image 
+    'empty_bul_img': "Placez tous les spécimens de Bulinus vides dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # empty lymnaea question
+    'empty_lym_q': "Combien des Lymnaea vides (ouverture droite) avez-vous trouvé ? (exemple ci-dessous)",
+
+    # empty lymnaea image
+    'empty_lym_img': "Placez tous les spécimens de Lymnaea natalensis vides dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # empty pool question 
+    'empty_pool_q': "Quel est le nombre de spécimens d'autres escargots vides ? (AUCUN Biomphalaria, Bulinus ou Lymnaea)",
+
+    # empty pool image 
+    'empty_pool_img': "Placez tous les autres escargots vides dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # live biomphalaria question 
+    'live_bio_q': "Combien des Biomphalaria vivants (coquille plat et rond) avez-vous trouvé ? (exemple ci-dessous)",
+
+    # live biomphalaria image 
+    'live_bio_img': "Placez tous les spécimens de Biomphalaria vivants dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # live bulinus question 
+    'live_bul_q': "Combien des Bulinus vivants (ouverture gauche) avez-vous trouvé ? (exemple ci-dessous)",
+
+    # live bulinus image 
+    'live_bul_img': "Placez tous les spécimens de Bulinus vivants dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # live lymnaea question
+    'live_lym_q': "Combien des Lymnaea vivants (ouverture droite) avez-vous trouvé ? (exemple ci-dessous)",
+
+    # live lymnaea image 
+    'live_lym_img': "Placez tous les spécimens de Lymnaea natalensis vivants dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # live pool question 
+    'live_pool_q': "Quel est le nombre de spécimens d'autres escargots vivants ? (AUCUN Biomphalaria, Bulinus ou Lymnaea)",
+
+    # live pool image
+    'live_pool_img': "Placez tous les autres escargots vivants dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # composite live image
+    'img_living': "Placez tous les escargots vivants dans le carré marqué sur le papier milimètré et prenez une photo.",
+
+    # composite empty image
+    "img_empty": "Placez tous les coquilles vides dans le carré marqué sur le papier milimètré et prenez une photo."
+
+}
